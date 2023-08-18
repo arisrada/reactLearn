@@ -1,23 +1,25 @@
-import logo from './logo.svg';
 import './App.css';
+import Header from './pages/Header';
+import ParentComponent from './pages/ParentComponent';
+import Bmi from './pages/Bmi';
 
 function App() {
+  var x = "Hello";
+  const arr = ["name", "age"];
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {x}
+      <Header/>
+      <ParentComponent/>
+      {
+        arr.map((data,i)=>{
+          return(
+            <div key={i}>{data}</div>
+          )
+        })
+      }
+      <Bmi/>
+
     </div>
   );
 }

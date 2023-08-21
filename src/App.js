@@ -1,26 +1,18 @@
-import './App.css';
-import Header from './pages/Header';
-import ParentComponent from './pages/ParentComponent';
-import Bmi from './pages/Bmi';
+// import './App.css';
+// import Task5 from './pages/Task5';
+import { Route, Routes } from 'react-router-dom';
+// import Usestate from './pages/Usestate';
+import Task6 from './pages/Task6';
+// import Home from './pages/Home';
+// import About from './pages/About';
 
-function App() {
-  var x = "Hello";
-  const arr = ["name", "age"];
+const App = () => {
   return (
-    <div className="App">
-      {x}
-      <Header/>
-      <ParentComponent/>
-      {
-        arr.map((data,i)=>{
-          return(
-            <div key={i}>{data}</div>
-          )
-        })
-      }
-      <Bmi/>
-
-    </div>
+      <Routes>
+        {/* <Route path='/' element={<Task5/>} /> */}
+        <Route path='/' element={<Task6/>}/>
+        {/* <Route path='/About' element={<About/>}/> */}
+      </Routes>
   );
 }
 

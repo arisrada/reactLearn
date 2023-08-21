@@ -1,0 +1,90 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.main_con{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 600px;
+    box-shadow: 1px 1px 50px rgb(163, 161, 161);
+    border-radius: 20px;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    padding: 40px 400px;
+}
+.card1{ */
+    /* margin-left: 250px; */
+    /* position: relative;
+    justify-content: center;
+    width: 500px;
+    height: 300px;
+    background-color: aliceblue;
+    padding: 50px 150px;
+    margin: 50px;
+    margin-top: 20px;
+}
+.img1{
+    width: 200px;
+    height: 200px;
+}
+.button{
+    margin-top: -20px;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    margin-left: 20px;
+}
+.btn1{
+    border: none;
+    padding: 5px 10px;
+    border-radius: 20px;
+    background-color: rgb(201, 164, 236);
+    font-weight: bolder;
+    color: rgb(124, 9, 232);
+}
+.btn2{
+    border: 1px solid rgb(183, 179, 179);
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-weight: bolder;
+}
+.logic{
+    padding: 20px;
+}
+h1{
+    font-size: 30px;
+}
+p{
+    margin-top: 20px;
+    font-size: 20px;
+}
+.time{
+    display: flex;
+    gap: 40px;
+}
+.h41{
+    margin-top: 10px;
+    font-size: 15px;
+    color: gray;
+}
+.h42{
+    margin-top: 5px;
+    font-size: 15px;
+    color: gray;
+}
+.see{
+    margin-top: 20px;
+}
+.a{
+    font-size: 20px;
+    color: blue;
+}
+.task6{
+    margin-top: 50px;
+} */
